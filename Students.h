@@ -2,6 +2,8 @@
 
 #include <string>
 #include <iostream>
+#include <vector>
+#include <algorithm>
 
 using namespace std;
 
@@ -43,5 +45,6 @@ class Sorting
 {
 public:
 	void selectionSort(Student* massiv);
+	void combSort(Student* massiv);
 };
 	

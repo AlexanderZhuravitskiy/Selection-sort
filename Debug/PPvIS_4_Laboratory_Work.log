@@ -1,4 +1,3 @@
 ﻿  Implemention.cpp
-  PPvIS_4_Laboratory_Work.cpp
-  Создание кода...
+C:\Users\User\source\repos\PPvIS_4_Laboratory_Work\Implemention.cpp(46,17): warning C4244: /=: преобразование "double" в "int", возможна потеря данных
   PPvIS_4_Laboratory_Work.vcxproj -> C:\Users\User\source\repos\PPvIS_4_Laboratory_Work\Debug\PPvIS_4_Laboratory_Work.exe

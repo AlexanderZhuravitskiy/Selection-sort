@@ -24,9 +24,29 @@ int main()
 	}
 	cout << endl << endl;
 
+	int choice;
+
+	cout << "Выберите способ сортировки: " << endl;
+	cout << "1 - Selection sort" << endl;
+	cout << "2 - Bucket sort";
+
+	cout << endl << endl;
+
+	cin >> choice;
+
+	cout << endl << endl;
+
 	Sorting example;
 
-	example.selectionSort(massiv);
+	if (choice == 1)
+	{
+		example.selectionSort(massiv);
+	}
+
+	if (choice == 2)
+	{
+		example.combSort(massiv);
+	}
 
 	for (int i = 0; i < number_of_students; i++)
 	{
